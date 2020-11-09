@@ -1,0 +1,15 @@
+:root {
+    --screen-width: 320px;
+    --screen-height: 560px;
+    --splash-bg-color: white;
+  }
+ body,
+ .root,
+ #root,
+ #docs-root {
+    --primary: #BE2043;
+    --secondary: #0F8994;
+    --accent: #EC9521;
+    --background: #524235;
+    --primary_font:'League Gothic';
+  }

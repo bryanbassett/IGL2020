@@ -1,0 +1,22 @@
+{
+  "name": "igl2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss static/css/tailwind.css -o style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
+    "postcss-import": "^13.0.0",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^1.9.6"
+  }
+}

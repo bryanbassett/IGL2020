@@ -1,0 +1,26 @@
+/*
+Theme Name:     IGL 2020
+Theme URI:      
+Description:    IGL 2020.
+Author:         Bryan Bassett
+Author URI:     
+Version:        0.1.0
+
+*/
+
+@charset "UTF-8";
+@import 'sss.css';
+@import 'variables.css';
+@import 'fonts.css';
+
+@import 'tailwindfiles.css';
+
+@import 'igl.css';
+@import 'mobile.css';
+
+
+
+
+
+
+
