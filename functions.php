@@ -345,7 +345,7 @@ function latest_sticky($type) {
 
 				'homepage_left_button', //Set a unique ID for the control
 				array(
-				'label'      => __( 'Homepage Left Button Text', 'igl' ), //Admin-visible name of the control
+				'label'      => __( 'Homepage Left Button Text (&Nav Button)', 'igl' ), //Admin-visible name of the control
 				'settings'   => 'homepage_left_button', //Which setting to load and manipulate (serialized is okay)
 				'priority'   => 10, //Determines the order this control appears in for the specified section
 				'section'    => 'static_front_page', //ID of the section this control should render in (can be one of yours, or a WordPress default section)
@@ -368,7 +368,7 @@ function latest_sticky($type) {
 
 				'homepage_left_button_link', //Set a unique ID for the control
 				array(
-				'label'      => __( 'Homepage Left Button Link', 'igl' ), //Admin-visible name of the control
+				'label'      => __( 'Homepage Left Button Link (&Nav Button)', 'igl' ), //Admin-visible name of the control
 				'settings'   => 'homepage_left_button_link', //Which setting to load and manipulate (serialized is okay)
 				'priority'   => 10, //Determines the order this control appears in for the specified section
 				'section'    => 'static_front_page', //ID of the section this control should render in (can be one of yours, or a WordPress default section)

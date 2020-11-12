@@ -55,7 +55,7 @@ foreach($post_categories as $c){
           <ul class="hidden md:block md:col-span-4 md:ml-auto" id="mobileMenu">
             <?php  wp_nav_menu_no_ul(); ?>
           </ul>
-          <button class="px-8 rounded-lg shadow-md hover:shadow-xl igl-button igl-red-button transition duration-300"> GIVE 
-          </button>
+          <a href="<?php echo get_theme_mod( 'homepage_left_button_link' ); ?>" class="px-8 rounded-lg shadow-md hover:shadow-xl igl-button igl-red-button transition duration-300 uppercase"><?php echo get_theme_mod( 'homepage_left_button' ); ?></a>
+
         </nav>
       </header>
