@@ -39,10 +39,8 @@ if ( ! defined( 'ABSPATH' ) ){
         <div class="container mx-auto  flex flex-wrap flex-col">
 			<div class="flex  flex-wrap">
 				<p class="text-white  text-2xl font-primary font-bold text-md  mb-2">RECEIVE FIELD & PRAYER UPDATES </p>
-      
-        <input class="block h-12  w-full  w-40 bg-transparent    border border-gray-400 focus:outline-none focus:border-indigo-500 text-base py-2 px-4 mb-3 text-2xl" placeholder="Name" type="text">
-				<input class="block h-12  w-full  w-40 bg-transparent    border border-gray-400 focus:outline-none focus:border-indigo-500 text-base py-2 px-4 mb-3 text-2xl" placeholder="Email" type="text">
-				<button class="block h-12   px-8 rounded-lg shadow-md hover:shadow-xl igl-button igl-white-button-alt transition duration-300 ">SIGN UP</button>
+        <?php echo do_shortcode('[gravityform id="2" title="false" description="false" ajax="true" tabindex="49"]'); ?>
+        
 			</div>
 		</div>
       </div>
