@@ -34,7 +34,7 @@ $startvar = 1;
         <?php echo $block['excerpt'] ?> 
         </p>
         <?php $classforbutton= 'igl-red-button'; if($startvar==1){$classforbutton='igl-red-button-outline';} ?>
-        <a href="<?php echo $block['speciallink'] ?>" class="py-1 px-8 rounded-lg shadow-md hover:shadow-xl igl-button <?php echo $classforbutton; ?> transition duration-300 mt-2 mb-2 inline-block"><?php echo $block['buttontext'] ?></a>
+        <a href="<?php echo $block['speciallink'] ?>" class="py-1 px-8 rounded-lg shadow-md hover:shadow-xl igl-button <?php echo $classforbutton; ?> transition duration-300 mt-2 mb-2 inline-block uppercase"><?php echo $block['buttontext'] ?></a>
         </div>
     </div>
 <?php 
