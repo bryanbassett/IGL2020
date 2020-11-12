@@ -22342,6 +22342,29 @@ section.campaignhero {
   margin-bottom:auto;
 }
 
+body.general-campaign figure.alignright.size-large {
+  border: 1px solid black;
+}
+
+body.general-campaign figure.alignright {
+  margin-left: 5rem !important;
+  margin-right: 0 !important;
+}
+
+body.general-campaign figure.alignleft{
+  margin-right: 5rem !important;
+  margin-left: 0 !important;
+}
+
+body.general-campaign figure.alignleft,figure.alignright{
+  margin-bottom:5rem !important;
+  margin-top:5rem !important;
+}
+
+body.general-campaign article p{
+  font-size:1em !important;
+}
+
 .campaignhero .indhpslide {
   z-index: -1;
 }
@@ -22710,6 +22733,68 @@ body.general-campaign a.custom-logo-link {
 
 body.general-campaign p#hamburgerbtn {
   display: none;
+}
+
+footer .ginput_container > span {
+  display: block !important;
+  border-radius: 2px !important;
+  width:100% !important;
+}
+
+footer .ginput_container > span input{
+  border-radius: 5px !important;
+  background-color:transparent;
+  color:white;
+  margin-top:0;
+  width:100% !important;
+}
+
+footer label{
+  font-size:.9em !important;
+  text-transform:initial;
+  font-weight:normal !important;
+}
+
+footer .ginput_container > span label{
+  margin-top:0 !important;
+  font-size:10px !important;
+}
+
+footer  input{
+  border-radius: 5px !important;
+  background-color:transparent;
+  color:white;
+  margin-top:0;
+  width:100% !important;
+}
+
+footer input.gform_button.button {
+  background-color:var(--primary) !important;
+  border-radius:0 !important;
+  border:none !important;
+  margin:1px;
+  font-family:var(--primary_font) !important;
+  text-transform:uppercase;
+  font-size:25px !important;
+  width:100%;
+  margin:0 !important;
+}
+
+footer .ginput_container.ginput_recaptcha iframe {
+  transform:scale(0.8 );
+  -webkit-transform:scale(.8);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  margin-bottom:0 !imporant;
+}
+
+footer .ginput_container.ginput_recaptcha {
+  margin-bottom:0 !important;
+  padding:0 !important;
+}
+
+footer .gform_wrapper{
+  margin-top:0;
 }
 
 .splash {
