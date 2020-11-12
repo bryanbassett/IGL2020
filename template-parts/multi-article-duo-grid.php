@@ -33,7 +33,7 @@ $startvar = 1;
         <p class="">
         <?php echo $block['excerpt'] ?> 
         </p>
-        <?php $classforbutton= 'igl-red-button'; if($key==1){$classforbutton='igl-red-button-outline';} ?>
+        <?php $classforbutton= 'igl-red-button'; if($key==1 || $key==2){$classforbutton='igl-red-button-outline';} ?>
         <a href="<?php echo get_theme_mod( 'homepage_left_button_link' ); ?>" class="py-1 px-8 rounded-lg shadow-md hover:shadow-xl igl-button <?php echo $classforbutton; ?> transition duration-300 mt-2 mb-2 inline-block">GIVE NOW</a>
         </div>
     </div>
