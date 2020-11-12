@@ -252,6 +252,7 @@ function latest_sticky($type) {
 				
 				$stickyarray[$x]['date'] = get_the_date();
 				$stickyarray[$x]['subtext'] = get_post_meta( get_the_ID(), 'sub-text', true );
+				$stickyarray[$x]['buttontext'] = get_post_meta( get_the_ID(), 'buttontext', true );
 				$stickyarray[$x]['email'] = get_post_meta( get_the_ID(), 'email', true );
 				$stickyarray[$x]['speciallink'] = get_post_meta( get_the_ID(), 'special-link', true );
 				$max = false;
