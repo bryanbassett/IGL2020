@@ -53,7 +53,7 @@ foreach($post_categories as $c){
               </p>
           </div>
           <div class="flex-row md:flex">
-            <ul class="hidden md:block md:col-span-3 md:ml-auto" id="mobileMenu">
+            <ul class="hidden md:flex-none md:block md:col-span-3 md:ml-auto" id="mobileMenu">
               <?php  wp_nav_menu_no_ul(); ?>
             </ul>
             <a style="      text-align: center;  margin: .2em;
