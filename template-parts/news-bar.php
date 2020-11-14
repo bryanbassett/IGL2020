@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ){
 	<div class="igl-background-secondary font-primary">
 		<div class="container mx-auto py-4 px-5 flex flex-wrap flex-col">
 			<div class="flex md:flex-no-wrap flex-wrap justify-center ">
-				<p class="text-white  text-2xl font-primary font-bold text-md  mr-2 text-center sm:h-1 mb-1">SIGN UP TO SERVE WITH FIELD & PRAYER UPDATES: </p>
+				<p class="-m-1 flex font-bold font-primary signuptext sm:h-1 text-2xl text-center text-md text-white">SIGN UP TO SERVE WITH FIELD & PRAYER UPDATES: </p>
 				<?php echo do_shortcode('[gravityform id="3" title="false" description="false" ajax="true" tabindex="1"]'); ?>
 			</div>
 		</div>

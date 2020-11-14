@@ -282,5 +282,62 @@ li.menu-item.active:hover .sub-menu {
   .camp-right {
     min-height: 50vh;
 }
+
+
+.newsbar label {
+  display:none;
+
+}
+.newsbar li{
+  display:inline-flex;
+  width:100%;
+
+}
+.newsbar li input{
+  display:block;
+  width:90vw;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:.2em;
+  font-size:1.2rem;
+}
+.newsbar li input::placeholder{
+  text-transform:uppercase;
+}
+.newsbar p.signuptext{
+  display:inline-flex;
+  /* margin-top: 0 !important; */
+  padding-top: 0;
+  font-size:1.3em;
+
+}
+
+.newsbar li.gform_validation_container {
+  display: none;
+}
+
+.newsbar input.gform_button.button {
+  background-color:var(--primary) !important;
+  border-radius:0 !important;
+  font-family:var(--primary_font) !important;
+  text-transform:uppercase;
+  
+  cursor:pointer;
+  color:white;
+  padding-left:1em;
+  padding-right:1em;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  font-size:1.4em;
+  width:90vw;
+}
+
+header .igl-button {
+  display: block;
+  width: 90vw !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
  }
  

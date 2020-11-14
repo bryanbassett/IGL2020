@@ -969,3 +969,57 @@ p.igl-button{
     padding-right:.3em !important;
     margin-bottom:2em !important;
 }
+
+
+
+.newsbar label {
+    display:none;
+
+}
+.newsbar li{
+    display:inline-flex;
+
+
+}
+.newsbar li input{
+    display:inline-flex;
+    width:7em;
+    margin-left:.5em;
+    margin-right:.5em;
+    font-size:1.2rem;
+}
+.newsbar li input::placeholder{
+    text-transform:uppercase;
+}
+.newsbar p.signuptext{
+    display:inline-flex;
+    /* margin-top: 0 !important; */
+    padding-top: 0;
+    font-size:1.3em;
+    margin-right:.5em
+}
+.newsbar ul{
+    display:inline-flex;
+
+}
+.newsbar .gform_body{
+    display:inline-flex;
+}
+.newsbar .gform_footer{
+    display:inline-flex;
+}
+.newsbar li.gform_validation_container {
+    display: none;
+}
+
+.newsbar input.gform_button.button {
+    background-color:var(--primary) !important;
+    border-radius:0 !important;
+    font-family:var(--primary_font) !important;
+    text-transform:uppercase;
+    font-size:1.3em;
+    cursor:pointer;
+    color:white;
+    padding-left:1em;
+    padding-right:1em;
+}
