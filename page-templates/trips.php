@@ -16,7 +16,12 @@ if ( ! defined( 'ABSPATH' ) ){
 <?php include( locate_template( 'template-parts/trip-slider.php', false, false) ); ?>
 <?php $slideid=2;	get_template_part( 'template-parts/trip-come-and-see'); ?>
 <?php  include( locate_template( 'template-parts/trip-slider.php', false, false) ); ?>
-<?php the_content() ?> 
+<section id="trip-more-info">
+	<div class="container">
+	<?php the_content() ?> 
+	</div>
+
+</section>
 <!-- trip form -->
 <?php	get_template_part( 'template-parts/featured-fund'); ?>
 
