@@ -15,6 +15,7 @@ module.exports = {
       },
     plugins: [
       require('postcss-import'),
+      require('postcss-simple-vars')({ variables: { version: 'BJB'+Math.floor(Math.random() * 102051) } }),
       require('tailwindcss'),
       require('autoprefixer')/* ,
 */
