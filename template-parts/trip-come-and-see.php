@@ -28,6 +28,6 @@ $myposts = get_some_posts('Mission Opportunities');
     <?php }} ?>
 </div>
     <div class="flex igl-big-button justify-center mb-16 mt-10 text-2xl w-full text-center">
-     <a href="#" class="py-1 px-8 rounded-lg shadow-md hover:shadow-xl igl-button igl-red-button transition duration-300 mt-2 mb-2 inline-block uppercase text-center">learn more about traveling to india</a>
+     <a href="#tripmoreinfo" class="py-1 px-8 rounded-lg shadow-md hover:shadow-xl igl-button igl-red-button transition duration-300 mt-2 mb-2 inline-block uppercase text-center">learn more about traveling to india</a>
     </div>
 </section>
