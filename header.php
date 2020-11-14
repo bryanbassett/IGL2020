@@ -34,8 +34,8 @@ foreach($post_categories as $c){
   <?php wp_body_open(); ?>
   <div id="page">
       <header class="navbar navbar-default navbar-fixed-top">
-        <nav class="flex-row md:justify-between md:grid md:grid-cols-6">
-          <div class="flex flex-row justify-between">
+        <nav class="md:flex md:justify-between">
+          <div class="flex ">
               
               <?php   the_custom_logo( ); ?>
 
@@ -52,12 +52,14 @@ foreach($post_categories as $c){
                 </svg>
               </p>
           </div>
-          <ul class="hidden md:block md:col-span-3 md:ml-auto" id="mobileMenu">
-            <?php  wp_nav_menu_no_ul(); ?>
-          </ul>
-          <a style="      text-align: center;  margin: .2em;
-    margin-right: 0;
-    width: 80%;" href="<?php echo get_theme_mod( 'homepage_left_button_link' ); ?>" class="duration-300 hover:shadow-xl igl-button igl-red-button md:col-span-2 px-8 rounded-lg shadow-md transition uppercase"><?php echo get_theme_mod( 'homepage_left_button' ); ?></a>
-
+          <div class="flex-row md:flex">
+            <ul class="hidden md:block md:col-span-3 md:ml-auto" id="mobileMenu">
+              <?php  wp_nav_menu_no_ul(); ?>
+            </ul>
+            <a style="      text-align: center;  margin: .2em;
+      margin-right: 0;
+      width: 80%;" href="<?php echo get_theme_mod( 'homepage_left_button_link' ); ?>" class="duration-300 hover:shadow-xl igl-button igl-red-button md:col-span-2 px-8 rounded-lg shadow-md transition uppercase"><?php echo get_theme_mod( 'homepage_left_button' ); ?></a>
+          </div>
         </nav>
+        
       </header>
