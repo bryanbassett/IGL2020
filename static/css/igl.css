@@ -993,7 +993,7 @@ p.igl-button{
 }
 .newsbar p.signuptext{
     display:inline-flex;
-    /* margin-top: 0 !important; */
+    margin-top: 0 !important;
     padding-top: 0;
     font-size:1.3em;
     margin-right:.5em
@@ -1050,6 +1050,8 @@ footer input::placeholder{
     height: unset !important;
     padding: .5em !important;
     width: unset !important;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 span.igl-footer-blurb {

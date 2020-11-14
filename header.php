@@ -47,7 +47,7 @@ foreach($post_categories as $c){
                   <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
                   <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
                   <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
-                  <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+                  
                   </g>
                 </svg>
               </p>
@@ -57,7 +57,7 @@ foreach($post_categories as $c){
           </ul>
           <a style="      text-align: center;  margin: .2em;
     margin-right: 0;
-    width: 80%;" href="<?php echo get_theme_mod( 'homepage_left_button_link' ); ?>" class="px-8 rounded-lg shadow-md hover:shadow-xl igl-button igl-red-button transition duration-300 uppercase"><?php echo get_theme_mod( 'homepage_left_button' ); ?></a>
+    width: 80%;" href="<?php echo get_theme_mod( 'homepage_left_button_link' ); ?>" class="duration-300 hover:shadow-xl igl-button igl-red-button md:col-span-2 px-8 rounded-lg shadow-md transition uppercase"><?php echo get_theme_mod( 'homepage_left_button' ); ?></a>
 
         </nav>
       </header>
