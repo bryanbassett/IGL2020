@@ -1057,3 +1057,13 @@ footer input::placeholder{
 span.igl-footer-blurb {
     font-size: .9em;
 }
+
+.igl-image-grid-container h3 {
+    letter-spacing: -1px;
+    width: 72%;
+}
+
+
+.font-black.fancy-font {
+    font-weight:normal !important;
+}

@@ -313,5 +313,8 @@ header .igl-button {
 .newsbar ul {
   display: block;
 }
+.igl-image-grid-excerpt-text {
+  font-size: 20px;
+}
  }
  
