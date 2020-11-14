@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ){
     <div class="flex flex-wrap md:text-left text-center order-first">
       
     <div class="w-full sm:w-1/3 px-4 igl-footer-connect">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/iglwhitelogo.png">
+        <img class="w-10/12" src="<?php echo get_template_directory_uri()?>/assets/images/iglwhitelogo.png">
         <nav class="list-none mb-10">
          
           

@@ -1045,9 +1045,13 @@ footer input::placeholder{
     font-family:var(--primary_font);
     text-transform:uppercase;
 }
-
-
 .grid.grid-cols-3.igl-logos img {
 
-    padding-top: 1.5em;
-    }
+    height: unset !important;
+    padding: .5em !important;
+    width: unset !important;
+}
+
+span.igl-footer-blurb {
+    font-size: .9em;
+}
