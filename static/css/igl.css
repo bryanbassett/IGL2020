@@ -987,6 +987,7 @@ p.igl-button{
     margin-left:.5em;
     margin-right:.5em;
     font-size:1.2rem;
+    padding-left: 10px;
 }
 .newsbar li input::placeholder{
     text-transform:uppercase;
@@ -1061,6 +1062,7 @@ span.igl-footer-blurb {
 .igl-image-grid-container h3 {
     letter-spacing: -1px;
     width: 72%;
+    font-weight: normal;
 }
 
 
