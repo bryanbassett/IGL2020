@@ -1,5 +1,5 @@
 
-@media (max-width: 769px) { 
+@media (max-width: 767px) { 
     .igl-blurb-container h2 {
         color: var(--accent);
         font-size: 4em;
