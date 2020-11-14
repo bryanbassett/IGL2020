@@ -1023,3 +1023,31 @@ p.igl-button{
     padding-left:1em;
     padding-right:1em;
 }
+
+footer label {
+    display:none;
+
+}
+
+footer li.gform_validation_container {
+    display: none;
+}
+
+footer input{
+    margin-bottom:1em;
+    padding-top:.3em;
+    padding-bottom:.3em;
+    padding-left:.3em;
+
+
+}
+footer input::placeholder{
+    font-family:var(--primary_font);
+    text-transform:uppercase;
+}
+
+
+.grid.grid-cols-3.igl-logos img {
+
+    padding-top: 1.5em;
+    }
