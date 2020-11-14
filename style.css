@@ -22785,7 +22785,7 @@ footer .ginput_container.ginput_recaptcha iframe {
   -webkit-transform:scale(.8);
   transform-origin:0 0;
   -webkit-transform-origin:0 0;
-  margin-bottom:0 !imporant;
+  margin-bottom:0 !important;
 }
 
 footer .ginput_container.ginput_recaptcha {
@@ -22795,6 +22795,19 @@ footer .ginput_container.ginput_recaptcha {
 
 footer .gform_wrapper{
   margin-top:0;
+}
+
+p.igl-button{
+  display:block;
+  width:-webkit-fit-content !important;
+  width:-moz-fit-content !important;
+  width:fit-content !important;
+  padding-bottom:0 !important;
+  padding:.2em !important;
+  font-size:20px !important;
+  padding-left:.3em !important;
+  padding-right:.3em !important;
+  margin-bottom:2em !important;
 }
 
 .splash {
