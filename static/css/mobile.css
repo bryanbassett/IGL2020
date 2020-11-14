@@ -310,5 +310,8 @@ header .igl-button {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+.newsbar ul {
+  display: block;
+}
  }
  
