@@ -255,10 +255,15 @@ function latest_sticky($type) {
 				$stickyarray[$x]['buttontext'] = get_post_meta( get_the_ID(), 'buttontext', true );
 				$stickyarray[$x]['email'] = get_post_meta( get_the_ID(), 'email', true );
 				$stickyarray[$x]['speciallink'] = get_post_meta( get_the_ID(), 'special-link', true );
+				$stickyarray[$x]['order'] = get_post_meta( get_the_ID(), 'hp-order', true );
 				$max = false;
 				if($paged==$page_number_max){$max=true;};
 				$stickyarray[$x]['maxpage']  = $published_posts;
 				$x++;
+			}
+			if($type=='Homepage Block'){
+				$sort = array_column($stickyarray, 'order');
+				array_multisort($sort, SORT_ASC, $stickyarray);
 			}
 	
 		} else {
