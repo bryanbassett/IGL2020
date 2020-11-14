@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ){
 <?php include( locate_template( 'template-parts/trip-slider.php', false, false) ); ?>
 <?php $slideid=2;	get_template_part( 'template-parts/trip-come-and-see'); ?>
 <?php  include( locate_template( 'template-parts/trip-slider.php', false, false) ); ?>
-<section id="tripmoreinfo " class="md:w-6/12 ml-auto mr-auto w-full">
+<section id="tripmoreinfo" class="md:w-6/12 ml-auto mr-auto w-full tripmoreinfo ">
 	<div class="block container ml-auto mr-auto">
 	<?php the_content() ?> 
 	</div>

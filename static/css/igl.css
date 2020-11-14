@@ -1077,18 +1077,18 @@ span.igl-footer-blurb {
     font-weight:normal !important;
 }
 
-#tripmoreinfo input{
+.tripmoreinfo input{
     border:1px solid black;
     margin:1em;
     font-size:1em;
 
 }
-#tripmoreinfo{
+.tripmoreinfo{
     border:1px solid grey;
     border-radius:30px;
     padding:2em;
 }
-#tripmoreinfo input.gform_button.button {
+.tripmoreinfo input.gform_button.button {
     background-color:var(--primary) !important;
     border-radius:0 !important;
     border:none !important;
@@ -1102,28 +1102,25 @@ span.igl-footer-blurb {
     margin:0 !important;
     cursor:pointer;
 }
-#tripmoreinfo textarea{
+.tripmoreinfo textarea{
     border:1px solid black;
     margin:1em;
     font-size:1em;
 
 }
-#tripmoreinfo  .gfield_label{
+.tripmoreinfo  .gfield_label{
  display:none;
 
 }
 
-label {
-    display:none;
-}
 .gfield_checkbox label{display:inline-block;}
 
-#tripmoreinfo select{
+.tripmoreinfo select{
     border:1px solid black;
     margin:1em;
 }
 
-#trips-more-info h3.gform_title {
+.tripmoreinfo h3.gform_title {
     font-size: 20px !important;
 }
 
