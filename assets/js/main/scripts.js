@@ -24,7 +24,7 @@ let $ = jQuery;
     showArrows:true,
     responsive:true
   });
-  
+
   $('.hpslider').slick({
     dots: false,
     infinite: true,

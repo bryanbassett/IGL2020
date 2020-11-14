@@ -288,7 +288,7 @@ li.blurb-title {
 
 
 
- .slick-dots li button:before{
+.slick-dots li button:before{
     color:white;
  
 }
@@ -342,9 +342,16 @@ li.blurb-title {
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0);
-  text-indent: -9999px;
+
   z-index: 999;
   cursor: pointer;
+  color:transparent;
+}
+.slick-prev:before {
+    content: '' !important;
+}
+.slick-next:before {
+    content: '' !important;
 }
 .slick-arrow:before {
   content: "";
