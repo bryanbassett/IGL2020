@@ -6,7 +6,7 @@ Theme URI:
 Description:    IGL 2020.
 Author:         Bryan Bassett
 Author URI:     
-Version:        BJB88811
+Version:        BJB56282
 
 */
 
@@ -22009,7 +22009,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .hero-arrow{
-  background-image:url('../../themes/igl2020/assets/images/heroarrowgold.png');
+  background-image:url('../../themes/IGL2020/assets/images/heroarrowgold.png');
   height:50px;
   background-position: center;
   background-repeat: no-repeat;
