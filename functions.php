@@ -229,8 +229,13 @@ function latest_sticky($type) {
 		
 		// The Loop
 		$x = 0;
-		$published_posts = $the_query->found_posts;
-		$page_number_max = ceil($published_posts / 6);
+		if($paginated==true){
+			$published_posts = $the_query->found_posts;
+			$page_number_max = ceil($published_posts / 6);
+		}else{
+			$page_number_max = 100;
+		}
+
 		if ( $the_query->have_posts() ) {
 			
 			while ( $the_query->have_posts() ) {
