@@ -15,7 +15,7 @@ $myposts = get_posts( array(
 ) );
 
 ?>
-<section class="trip-sliders <?php echo $slideid ?>">
+<section class="trip-sliders block relative <?php echo $slideid ?>">
 
 <div class="tripslider-<?php echo $slideid ?>  ">
     <div class="slide <?php echo $slideid ?> 1  bg-black gap-5 grid pb-10 italic pl-5 pr-5 pt-10 slide sm:pl-40 sm:pr-40 text-2xl text-white">
