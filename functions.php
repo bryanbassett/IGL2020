@@ -218,7 +218,7 @@ function latest_sticky($type) {
 		if($tag!=null){
 			$the_query = new WP_Query( array( 'category_name' => $type,  'tag' => $tag) );
 		}else{
-			if($paginated = true){
+			if($paginated == true){
 				$the_query = new WP_Query( array( 'category_name' => $type,  'posts_per_page' => 6, 'paged' => $paged) );
 			}else{
 				$the_query = new WP_Query( array( 'category_name' => $type) );
