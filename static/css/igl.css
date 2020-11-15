@@ -1225,3 +1225,13 @@ section.alert {
     margin-top: auto;
     margin-bottom: auto;
 }
+.camp-left.igl-button{
+    color:white !important;
+    background-color: var(--accent) !important;
+    border:3px solid var(--accent) !important;
+}
+.camp-left.igl-button:hover{
+    color:var(--accent);
+    background-color:white;
+    border:3px solid var(--accent);
+}
