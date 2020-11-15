@@ -121,6 +121,10 @@
     margin-right: auto;
 }
 
+div[class*="tripslider-"] {
+    background-blend-mode: multiply;
+  background-color: #656363;
+}
 
 footer input {
     border-radius: 8px;
