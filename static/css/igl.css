@@ -1272,3 +1272,13 @@ p.has-text-align-center.megabutton.igl-button.igl-red-button a {
     padding-right:1em;
 
 }
+body.general-campaign nav .igl-button {
+    display: none !important;
+}
+
+body.general-campaign nav .flex-row{
+    display:none !important;
+}
+body.general-campaign nav .flex{
+   width:100%;
+}
