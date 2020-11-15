@@ -244,7 +244,7 @@ function latest_sticky($type) {
 				$stickyarray[$x]['link'] = get_permalink();
 				$stickyarray[$x]['title'] =  get_the_title();
 				$stickyarray[$x]['thumb'] =  get_the_post_thumbnail_url();
-				if($type=='Campaign Hero Blurb' || $type=='Sponsorship' || $type=='Featured Need' || $type=='Homepage Block' || $type == 'Staff' || $type == 'Sam Stephens' || $type == 'Featured Fund' || $type == 'Mission Opportunities' || $type == 'Trip Blurbs'){
+				if($type=='Trip Quotes' || $type=='Campaign Hero Blurb' || $type=='Sponsorship' || $type=='Featured Need' || $type=='Homepage Block' || $type == 'Staff' || $type == 'Sam Stephens' || $type == 'Featured Fund' || $type == 'Mission Opportunities' || $type == 'Trip Blurbs'){
 					
 					if($type=='Campaign Hero Blurb' || $type == 'Trip Blurbs'){
 						$stickyarray[$x]['excerpt'] = get_the_content();
