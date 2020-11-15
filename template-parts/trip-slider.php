@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ){
 $myposts = get_some_posts('Trip Quotes');
 
 ?>
-<section class="trip-sliders block relative <?php echo $slideid ?>">
+<section class="trip-sliders block relative <?php echo $slideid ?>" style="background-image:url('<?php echo wp_get_attachment_image_url(get_theme_mod( 'tripslide'.$slideid )); ?>')">
 <div class="">
 <div class="tripslider-<?php echo $slideid ?>  ">
 <?php foreach($myposts as $key => $blurb){ 

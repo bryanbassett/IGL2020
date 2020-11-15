@@ -517,6 +517,27 @@ function latest_sticky($type) {
 					'section' => 'igl_options',
 					'mime_type' => 'image',
 				  ) ) );
+
+				  $wp_customize -> add_setting('tripslide1', array(
+					'default' => '', 
+					'type' => 'theme_mod'
+				
+				));
+				$wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'tripslide1', array(
+					'label' => __( 'Trips Slider 1 Background', 'igl' ),
+					'section' => 'igl_options',
+					'mime_type' => 'image',
+				  ) ) );
+				  $wp_customize -> add_setting('tripslide2', array(
+					'default' => '', 
+					'type' => 'theme_mod'
+				
+				));
+				$wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'tripslide2', array(
+					'label' => __( 'Trips Slider 2 Background', 'igl' ),
+					'section' => 'igl_options',
+					'mime_type' => 'image',
+				  ) ) );
 			   
 				$newSettings = array(
 					array(
