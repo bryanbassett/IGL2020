@@ -11,9 +11,9 @@ if ( ! defined( 'ABSPATH' ) ){
 $myposts = get_some_posts('Trip Quotes');
 
 ?>
-<section class="trip-sliders block relative <?php echo $slideid ?>" style="background-image:url('<?php echo wp_get_attachment_image_url(get_theme_mod( 'tripslide'.$slideid )); ?>')">
+<section class="trip-sliders block relative<?php echo $slideid ?>" >
 <div class="">
-<div class="tripslider-<?php echo $slideid ?>  ">
+<div class="tripslider-<?php echo $slideid ?>   bg-center bg-cover " style="background-image:url('<?php echo wp_get_attachment_image_url(get_theme_mod( 'tripslide'.$slideid )); ?>')">
 <?php foreach($myposts as $key => $blurb){ 
     if($slideid==1 ){
         if($key ==1 || $key == 3 || $key == 5){
@@ -26,7 +26,7 @@ $myposts = get_some_posts('Trip Quotes');
         }
     }
     ?>
-    <div class="slide <?php echo $slideid ?> 1  bg-black gap-5 grid pb-10 italic pl-5 pr-5 pt-10 slide sm:pl-40 sm:pr-40 text-2xl text-white">
+    <div class="slide <?php echo $slideid ?> 1  gap-5 grid pb-10 italic pl-5 pr-5 pt-10 slide sm:pl-40 sm:pr-40 text-2xl text-white">
         <p class="quote"><?php echo trim($blurb['excerpt']); ?></p> 
         <p class="quotee p-5 pr-0 flex justify-end"><?php echo trim($blurb['subtext']); ?></p>
     </div>
