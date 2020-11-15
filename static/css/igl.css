@@ -1238,3 +1238,23 @@ section.alert {
     background-color:white !important;
     border:3px solid var(--accent) !important;
 }
+body.general-campaign figure.alignright.size-large{
+    border:none;
+    margin-right:0;
+    padding-right:0;
+
+}
+body.general-campaign figure.alignright{
+    margin-left:2em !important;
+    margin-top:.5em !Important;
+    margin-bottom:1em !important;
+}
+
+body.general-campaign ul, article ul {
+    list-style: unset;
+    margin-left: 1.3em;
+}
+
+body.general-campaign article figure.alignright {
+    max-width: 51%;
+}
