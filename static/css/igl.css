@@ -40,31 +40,19 @@
     text-transform:uppercase;
 }
 
-.igl-red-button, .igl-primary-button, .igl-white-button {
+.igl-red-button, .igl-primary-button, .igl-white-button, .igl-red-button-outline, .igl-primary-button-outline {
     border:3px solid var(--primary);
     background-color: var(--primary);
     color: white;
-
-    
 }
 .igl-red-button:hover, .igl-primary-button:hover, .igl-white-button:hover,
- .igl-red-button-outline:hover, .igl-primary-button-outline:hover, .igl-secondary-button-outline:hover, .igl-white-button-outline:hover{
+ .igl-red-button-outline:hover, .igl-primary-button-outline:hover, .igl-secondary-button-outline:hover, .igl-white-button-outline:hover, .igl-red-button-outline:hover {
     background-color: white;
     color: var(--primary);
     border:3px solid var(--primary);
 
 }
 
-.igl-red-button-outline{
-    border:3px solid var(--primary);
-    background-color:transparent;
-    color: var(--primary);
-}
-.igl-primary-button-outline{
-    border:3px solid var(--primary);
-    background-color:transparent;
-    color: var(--primary);
-}
 .igl-secondary-button-outline{
     border:3px solid var(--secondary);
     background-color:transparent;
@@ -76,11 +64,6 @@
     color: var(--accent);
 }
 
-.igl-white-button {
-    background-color: white;
-    color: var(--primary);
-
-}
 
 .igl-white-button-alt {
     background-color: white;
