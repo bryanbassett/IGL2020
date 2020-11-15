@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ){
 	exit; // Exit if accessed directly
 } ?>
 <?php	get_template_part( 'template-parts/news-bar'); ?>
+<?php	get_template_part( 'template-parts/top-alert'); ?>
 <?php	get_template_part( 'template-parts/hero-alt'); ?>
 <?php	get_template_part( 'template-parts/trip-blurbs'); ?>
 

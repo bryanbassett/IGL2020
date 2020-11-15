@@ -537,6 +537,12 @@ function latest_sticky($type) {
 						'section' => 'igl_options',
 						'type' => 'textbox'
 					),
+					array(
+						'slug' => 'top_alert',
+						'name' => 'Alert Text (top of sponsorship page)',
+						'section' => 'igl_options',
+						'type' => 'textbox'
+					),
 				);
 				foreach($newSettings as $setting){
 					
