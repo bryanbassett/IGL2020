@@ -1258,3 +1258,17 @@ body.general-campaign ul, article ul {
 body.general-campaign article figure.alignright {
     max-width: 51%;
 }
+
+p.has-text-align-center.megabutton.igl-button.igl-red-button {
+
+    padding-top:0 !important;
+       padding-bottom:0 !Important;
+       margin-top:2.5em;
+}
+p.has-text-align-center.megabutton.igl-button.igl-red-button a {
+    font-size: 4em !Important;
+    margin-top:0 !important;
+    padding-left:1em;
+    padding-right:1em;
+
+}
