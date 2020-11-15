@@ -44,11 +44,11 @@ let $ = jQuery;
   });
 
 
-  $('*').on('click tap touch',function(e){
+  $('*').on('click tap touch ',function(e){
     $('.dropper').removeClass('active');
   });
 
-  $('.dropper').on('click tap touch',function(e){
+  $('.dropper').on('click tap touch hover',function(e){
     let x = this;
     let link = e.target.pathname;
   
@@ -69,4 +69,14 @@ let $ = jQuery;
     $( "li.blurb-content[data-blurb-key!="+blurbID+"]" ).addClass('hidden');
     $( "li.blurb-content[data-blurb-key="+blurbID+"]" ).removeClass('hidden');
 
+  });
+
+  $('.igl-staff-box').on('click tap touch',function(e){
+    let email = 'mailto:'+$(this).data('email');
+      setTimeout($.proxy(function() {
+        var popup = window.open(email)
+        setTimeout($.proxy(function() {
+          this.close();
+        }, popup), 100);
+      }, this), 100)
   });

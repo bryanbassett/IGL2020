@@ -1129,3 +1129,66 @@ h3.gform_title {
     text-transform: uppercase;
     color: var(--accent);
 }
+
+.dropper:hover ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    font-size: 20px !important;
+    width: 250px;
+    height: auto;
+    z-index: 3;
+}
+
+.dropper:hover ul.sub-menu li {
+    display: block;
+    background-color: white;
+    font-size: 1.3em !important;
+    transition: .1ms all ease-in-out !important;
+}
+
+
+.dropper:hover ul.sub-menu li:hover {
+    background-color: var(--secondary);
+    color: white;
+}
+
+nav ul.sub-menu .menu-item {
+    padding-top: 0 !important;
+}
+
+a.custom-logo-link {
+    padding-left: 1.2em;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .gform_confirmation_message{
+    text-transform: uppercase;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+}
+.newsbar .gform_confirmation_message, footer .gform_confirmation_message{
+    text-transform: uppercase;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+}
+

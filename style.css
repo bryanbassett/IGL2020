@@ -6,7 +6,7 @@ Theme URI:
 Description:    IGL 2020.
 Author:         Bryan Bassett
 Author URI:     
-Version:        BJB16994
+Version:        BJB54389
 
 */
 
@@ -22936,19 +22936,19 @@ span.igl-footer-blurb {
   font-weight:normal !important;
 }
 
-#tripmoreinfo input{
+.tripmoreinfo input{
   border:1px solid black;
   margin:1em;
   font-size:1em;
 }
 
-#tripmoreinfo{
+.tripmoreinfo{
   border:1px solid grey;
   border-radius:30px;
   padding:2em;
 }
 
-#tripmoreinfo input.gform_button.button {
+.tripmoreinfo input.gform_button.button {
   background-color:var(--primary) !important;
   border-radius:0 !important;
   border:none !important;
@@ -22963,17 +22963,13 @@ span.igl-footer-blurb {
   cursor:pointer;
 }
 
-#tripmoreinfo textarea{
+.tripmoreinfo textarea{
   border:1px solid black;
   margin:1em;
   font-size:1em;
 }
 
-#tripmoreinfo  .gfield_label{
-  display:none;
-}
-
-label {
+.tripmoreinfo  .gfield_label{
   display:none;
 }
 
@@ -22981,12 +22977,12 @@ label {
   display:inline-block;
 }
 
-#tripmoreinfo select{
+.tripmoreinfo select{
   border:1px solid black;
   margin:1em;
 }
 
-#trips-more-info h3.gform_title {
+.tripmoreinfo h3.gform_title {
   font-size: 20px !important;
 }
 
@@ -22994,6 +22990,69 @@ h3.gform_title {
   font-size: 3em;
   text-transform: uppercase;
   color: var(--accent);
+}
+
+.dropper:hover ul {
+  display: block;
+  position: absolute;
+  background-color: white;
+  font-size: 20px !important;
+  width: 250px;
+  height: auto;
+  z-index: 3;
+}
+
+.dropper:hover ul.sub-menu li {
+  display: block;
+  background-color: white;
+  font-size: 1.3em !important;
+  transition: .1ms all ease-in-out !important;
+}
+
+.dropper:hover ul.sub-menu li:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+nav ul.sub-menu .menu-item {
+  padding-top: 0 !important;
+}
+
+a.custom-logo-link {
+  padding-left: 1.2em;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+body{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.gform_confirmation_message{
+  text-transform: uppercase;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  display: block;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.newsbar .gform_confirmation_message, footer .gform_confirmation_message{
+  text-transform: uppercase;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  display: block;
+  font-size: 20px;
+  font-style: italic;
 }
 
 @media (max-width: 767px) {
