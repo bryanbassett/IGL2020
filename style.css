@@ -6,7 +6,7 @@ Theme URI:
 Description:    IGL 2020.
 Author:         Bryan Bassett
 Author URI:     
-Version:        BJB31994
+Version:        BJB40690
 
 */
 
@@ -21850,7 +21850,7 @@ video {
   color: white;
 }
 
-.igl-red-button:hover, .igl-primary-button:hover, .igl-white-button:hover,
+.gform_button.button:hover, .igl-red-button:hover, .igl-primary-button:hover, .igl-white-button:hover,
  .igl-red-button-outline:hover, .igl-primary-button-outline:hover, .igl-secondary-button-outline:hover, .igl-white-button-outline:hover, .igl-red-button-outline:hover {
   background-color: white;
   color: var(--primary);
