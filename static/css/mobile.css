@@ -341,6 +341,15 @@ header .igl-button {
   font-size: 20px;
 }
 
-
+body.general-campaign figure.alignright {
+  margin: 0 !important;
+  margin-left:  0 !important;
+  margin-right: 0 !important;
+  float:unset !important;
+  width:100% !important;
+  min-width:100%;
+  padding-right:0 !important;
+  padding-left:0 !important;
+}
  }
  
