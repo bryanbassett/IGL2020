@@ -19,7 +19,7 @@ if(!empty($alert)){
 		<div class="container mx-auto py-4 px-5 ">
 			<div class="flex md:flex-no-wrap flex-wrap justify-center ">
                 <p class=" text-center text-md text-white"><span class="font-bold"><?php echo $alertname ?>:</span> 
-                <?php echo $alert ?> For more info, contact <?php echo $alertcontact ?> at <a  class="font-bold" href="<?php echo $alertemail ?>"><?php echo $alertemail?></a>
+                <?php echo $alert ?> <?php if(!empty($alertcontact)){ ?> For more info, contact <?php echo $alertcontact ?> at <a  class="font-bold" href="mailto:<?php echo $alertemail ?>"><?php echo $alertemail?></a><?php  } ?>
             </p>
 			</div>
 		</div>

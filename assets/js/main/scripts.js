@@ -14,13 +14,13 @@ let $ = jQuery;
   });
 
   $('.tripslider-2').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 6000,
     speed: 800,
     slidesToShow: 1,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     showArrows:true,
     responsive:true
   });
@@ -32,7 +32,7 @@ let $ = jQuery;
     autoplaySpeed: 6000,
     speed: 800,
     slidesToShow: 1,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     showArrows:false,
     responsive:true
   });
