@@ -550,7 +550,7 @@ function latest_sticky($type) {
 						'type' => 'textbox'
 					),
 					array(
-						'slug' => 'top_alert_name',
+						'slug' => 'top_alert_contact',
 						'name' => 'Alert Contact Name (top of trip page)',
 						'section' => 'igl_options',
 						'type' => 'textbox'
