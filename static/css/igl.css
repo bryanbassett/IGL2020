@@ -47,9 +47,9 @@
 }
 footer .gform_wrapper input.gform_button.button:hover, .newsbar input.gform_button.button:hover, .gform_button.button:hover, .igl-red-button:hover, .igl-primary-button:hover, .igl-white-button:hover,
  .igl-red-button-outline:hover, .igl-primary-button-outline:hover, .igl-secondary-button-outline:hover, .igl-white-button-outline:hover, .igl-red-button-outline:hover {
-    background-color: white;
-    color: var(--primary);
-    border:3px solid var(--primary);
+    background-color: white !important;
+    color: var(--primary) !important;
+    border:3px solid var(--primary) !important;
 
 }
 
@@ -931,7 +931,7 @@ footer .gform_wrapper  input{
 footer .gform_wrapper input.gform_button.button {
     background-color:var(--primary);
     border-radius:0 !important;
-    border:none;
+    border:3px solid var(--primary);
     margin:1px;
     font-family:var(--primary_font) !important;
     text-transform:uppercase;
