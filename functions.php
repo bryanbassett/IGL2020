@@ -538,8 +538,26 @@ function latest_sticky($type) {
 						'type' => 'textbox'
 					),
 					array(
+						'slug' => 'top_alert_name',
+						'name' => 'Alert Name (top of trip page)',
+						'section' => 'igl_options',
+						'type' => 'textbox'
+					),
+					array(
 						'slug' => 'top_alert',
-						'name' => 'Alert Text (top of sponsorship page)',
+						'name' => 'Alert Text (top of trip page)',
+						'section' => 'igl_options',
+						'type' => 'textbox'
+					),
+					array(
+						'slug' => 'top_alert_name',
+						'name' => 'Alert Contact Name (top of trip page)',
+						'section' => 'igl_options',
+						'type' => 'textbox'
+					),
+					array(
+						'slug' => 'top_alert_email',
+						'name' => 'Alert Contact Email (top of trip page)',
 						'section' => 'igl_options',
 						'type' => 'textbox'
 					),
