@@ -901,13 +901,13 @@ body.general-campaign a.custom-logo-link {
 body.general-campaign p#hamburgerbtn {
     display: none;
 }
-footer .ginput_container > span {
+footer .gform_wrapper .ginput_container > span {
     display: block !important;
     border-radius: 2px !important;
         width:100% !important;
 }
 
-footer .ginput_container > span input{
+footer .gform_wrapper .ginput_container > span input{
     border-radius: 5px !important;
     background-color:transparent;
     color:white;
@@ -916,18 +916,18 @@ footer .ginput_container > span input{
 }
 
 
-footer label{
+footer .gform_wrapper label{
 
     font-size:.9em !important;
     text-transform:initial;
     font-weight:normal !important;
 }
-footer .ginput_container > span label{
+footer .gform_wrapper .ginput_container > span label{
     margin-top:0 !important;
     font-size:10px !important;
 }
 
-footer  input{
+footer .gform_wrapper  input{
     border-radius: 5px !important;
     background-color:transparent;
     color:white;
@@ -935,7 +935,7 @@ footer  input{
     width:100% !important;
 }
 
-footer input.gform_button.button {
+footer .gform_wrapper input.gform_button.button {
     background-color:var(--primary) !important;
     border-radius:0 !important;
     border:none !important;
@@ -1045,11 +1045,11 @@ footer label {
 
 }
 
-footer li.gform_validation_container {
+footer .gform_wrapper li.gform_validation_container {
     display: none;
 }
 
-footer input{
+footer .gform_wrapper input{
     margin-bottom:1em;
     padding-top:.3em;
     padding-bottom:.3em;
@@ -1057,7 +1057,7 @@ footer input{
 
 
 }
-footer input::placeholder{
+footer .gform_wrapper input::placeholder{
     font-family:var(--primary_font);
     text-transform:uppercase;
 }
