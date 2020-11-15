@@ -20,7 +20,7 @@ $staff = get_some_posts('Staff');
         <div class="igl-grid-thumb w-full h-56 bg-cover bg-center igl-grid-thumb-alt " style="background-image:url('<?php echo $block['thumb'] ?>');"></div>
         <p class="font-primary igl-text-secondary text-3xl uppercase  text-center flex justify-center uppercase"><?php echo $block['title'] ?></p>
         <p class="text-black  text-1xl p-2 pl-0 text-italic text-center bold"><?php echo $block['excerpt'] ?></p>
-        <a class=" secondary-link igl-text-secondary text-1xl p-2 pl-0 small text-center underline"><?php echo $block['email'] ?></a>
+        <a class=" secondary-link igl-text-secondary text-1xl p-2 pl-0 small text-center underline break-all"><?php echo $block['email'] ?></a>
     </div>
      <?php } ?> 
     
