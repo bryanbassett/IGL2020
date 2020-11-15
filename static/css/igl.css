@@ -12,6 +12,7 @@
     font-family: var(--primary_font);
     font-size: 1.75em;
     letter-spacing: .06em;
+    text-transform:uppercase;
 }
 .igl-text-primary{
     color:var(--primary);
