@@ -24,7 +24,11 @@ let $ = jQuery;
     showArrows:true,
     responsive:true
   });
-
+  var stHeight = $('.tripslider-1 .slick-track').height();
+  $('.tripslider-1 .slick-slide').css('height',stHeight + 'px' );
+  var stHeight = $('.tripslider-2 .slick-track').height();
+  $('.tripslider-2 .slick-slide').css('height',stHeight + 'px' );
+  
   $('.hpslider').slick({
     dots: false,
     infinite: true,
