@@ -493,7 +493,7 @@ article blockquote.wp-block-quote::after {
 }
 
 article h4 {
-    font-size: 5em;
+    font-size: 3.6em;
     font-family: var(--primary_font);
     text-align: center;
     color:var(--accent);
@@ -564,7 +564,7 @@ body.general-campaign figure.alignleft,figure.alignright{
      margin-top:5rem !important;
 }
 body.general-campaign article p{
-    font-size:1em !important;
+    font-size:1em ;
 }
 
   .campaignhero .indhpslide {

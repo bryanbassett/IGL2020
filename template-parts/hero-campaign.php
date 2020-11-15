@@ -16,7 +16,7 @@ $camphero = $camphero[0];
 <section class="flex flex-col flex-wrap inline-block m-auto ml-auto mr-auto p-0 bg-cover bg-center  w-full h-full text-center relative campaignhero" style="background-image:url('<?php echo get_the_post_thumbnail_url( ); ?>')">
 
     <div class="grid grid-cols-1 sm:grid-cols-2 campgrid">
-        <div class="bg-white bg-opacity-50 camp-left p-0 sm:p-20 text-center">
+        <div class="bg-white bg-opacity-75 camp-left p-0 sm:p-20 text-center">
             <div class="h-full">
                 <div class="flex flex-col h-full mb-auto mt-auto">
                     <div class="campsidetext m-auto mb-10 mt-10 sm:m-auto text-5xl text-white uppercase w-11/12">  <?php echo str_replace('<p></p>','',preg_replace(array('<p>','</p>',),array('',''),$camphero['excerpt'],1)); ?></div>
