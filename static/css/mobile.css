@@ -1,4 +1,28 @@
-
+/* just for nav */
+@media (min-width: 768px) {
+  .dropper:hover ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    font-size: 20px !important;
+    width: 250px;
+    height: auto;
+    z-index: 3;
+  }
+  
+  .dropper:hover ul.sub-menu li {
+    display: block;
+    background-color: white;
+    font-size: 1.3em !important;
+    transition: .1ms all ease-in-out !important;
+  }
+  
+  
+  .dropper:hover ul.sub-menu li:hover {
+    background-color: var(--secondary);
+    color: white;
+  }
+} 
 @media (max-width: 767px) { 
     .igl-blurb-container h2 {
         color: var(--accent);
@@ -316,5 +340,7 @@ header .igl-button {
 .igl-image-grid-excerpt-text {
   font-size: 20px;
 }
+
+
  }
  

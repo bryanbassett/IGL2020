@@ -6,7 +6,7 @@ Theme URI:
 Description:    IGL 2020.
 Author:         Bryan Bassett
 Author URI:     
-Version:        BJB11909
+Version:        BJB21874
 
 */
 
@@ -23002,28 +23002,6 @@ h3.gform_title {
   color: var(--accent);
 }
 
-.dropper:hover ul {
-  display: block;
-  position: absolute;
-  background-color: white;
-  font-size: 20px !important;
-  width: 250px;
-  height: auto;
-  z-index: 3;
-}
-
-.dropper:hover ul.sub-menu li {
-  display: block;
-  background-color: white;
-  font-size: 1.3em !important;
-  transition: .1ms all ease-in-out !important;
-}
-
-.dropper:hover ul.sub-menu li:hover {
-  background-color: var(--secondary);
-  color: white;
-}
-
 nav ul.sub-menu .menu-item {
   padding-top: 0 !important;
 }
@@ -23127,6 +23105,32 @@ section.alert {
   font-weight: lighter;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+/* just for nav */
+
+@media (min-width: 768px) {
+  .dropper:hover ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    font-size: 20px !important;
+    width: 250px;
+    height: auto;
+    z-index: 3;
+  }
+
+  .dropper:hover ul.sub-menu li {
+    display: block;
+    background-color: white;
+    font-size: 1.3em !important;
+    transition: .1ms all ease-in-out !important;
+  }
+
+  .dropper:hover ul.sub-menu li:hover {
+    background-color: var(--secondary);
+    color: white;
+  }
 }
 
 @media (max-width: 767px) {
