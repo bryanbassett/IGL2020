@@ -1241,3 +1241,10 @@ body::-webkit-scrollbar {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+section.alert {
+    background-color: var(--primary);
+    font-weight: lighter;
+    margin-top: auto;
+    margin-bottom: auto;
+}
