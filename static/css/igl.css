@@ -567,6 +567,9 @@ body.general-campaign article p{
     font-size:1em ;
 }
 
+body.general-campaign .entry-content {
+    margin-top: 2.5em;
+}
   .campaignhero .indhpslide {
       z-index: -1;
   }
