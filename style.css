@@ -6,7 +6,7 @@ Theme URI:
 Description:    IGL 2020.
 Author:         Bryan Bassett
 Author URI:     
-Version:        BJB77192
+Version:        BJB9028
 
 */
 
@@ -22773,6 +22773,7 @@ footer .gform_wrapper  input{
   background-color:transparent;
   color:white;
   margin-top:0;
+  font-family: unset;
   width:100% !important;
 }
 
