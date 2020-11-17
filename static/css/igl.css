@@ -1282,3 +1282,8 @@ body.general-campaign nav .flex-row{
 body.general-campaign nav .flex{
    width:100%;
 }
+
+
+.igl-image-grid-excerpt-pers.igl-image-grid-excerpt .igl-image-grid-excerpt-text {
+    text-transform:none !important;
+}

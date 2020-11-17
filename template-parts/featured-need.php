@@ -26,7 +26,6 @@ if(!empty($posts)){foreach($posts as $block){
     <div class="p-8 order-2 sm:order-none pl-16 pr-16">
         <div class="mt-8 mb-8">
 			<p class="text-4xl font-black  mb-2  fancy-font igl-text-accent">Featured Need!</p>
-			<hr class="border-0 bg-gray-500 text-gray-500 h-px  ml-auto mr-auto mb-6 igl-divider-1 igl-divider-alt">
 			<p class="text-5xl font-black  mb-2  font-primary igl-text-secondary uppercase"><?php echo $block['title'] ?></p>
 
             <p class="">
