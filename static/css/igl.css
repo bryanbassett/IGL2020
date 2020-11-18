@@ -1131,6 +1131,13 @@ span.igl-footer-blurb {
 .font20px{
     font-size:20px !important;
 }
+.font20px.igl-button a {
+    padding-left: 2rem;
+padding-right: 2rem;
+font-size:1.75em;
+    padding-top: 0.25rem;
+padding-bottom: 0.25rem;
+}
 h3.gform_title {
     font-size: 3em;
     text-transform: uppercase;
