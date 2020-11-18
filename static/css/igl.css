@@ -532,8 +532,7 @@ color:var(--secondary);
 }
 
 .camp-left .igl-button{
-    background-color:var(--accent);
-    border:none;
+
     margin-top:1em;
 }
 section.campaignhero {
@@ -1129,7 +1128,9 @@ span.igl-footer-blurb {
 .tripmoreinfo h3.gform_title {
     font-size: 20px !important;
 }
-
+.font20px{
+    font-size:20px !important;
+}
 h3.gform_title {
     font-size: 3em;
     text-transform: uppercase;
@@ -1228,16 +1229,8 @@ section.alert {
     margin-top: auto;
     margin-bottom: auto;
 }
-.camp-left .igl-button{
-    color:white !important;
-    background-color: var(--accent) !important;
-    border:3px solid var(--accent) !important;
-}
-.camp-left .igl-button:hover{
-    color:var(--accent) !important;
-    background-color:white !important;
-    border:3px solid var(--accent) !important;
-}
+
+
 body.general-campaign figure.alignright.size-large{
     border:none;
     margin-right:0;
