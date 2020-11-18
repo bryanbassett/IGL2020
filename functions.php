@@ -261,6 +261,7 @@ function latest_sticky($type) {
 				$stickyarray[$x]['email'] = get_post_meta( get_the_ID(), 'email', true );
 				$stickyarray[$x]['speciallink'] = get_post_meta( get_the_ID(), 'special-link', true );
 				$stickyarray[$x]['order'] = get_post_meta( get_the_ID(), 'hp-order', true );
+				$stickyarray[$x]['disablefeaturedfund'] = get_post_meta( get_the_ID(), 'disable_ff', true );
 				$max = false;
 				if($paged==$page_number_max){$max=true;};
 				$stickyarray[$x]['maxpage']  = $published_posts;

@@ -30,5 +30,11 @@ if ( ! defined( 'ABSPATH' ) ){
 	</div><!-- .entry-content -->
 	
 </article><!-- #post-## -->
-<?php	get_template_part( 'template-parts/featured-fund'); ?>
+<?php
+$disable_ff = get_post_meta( get_the_ID(), 'disable_ff', true );	
+if(trim($disable_ff != 1)){
+	get_template_part( 'template-parts/featured-fund'); 
+}
+
+?>
 
