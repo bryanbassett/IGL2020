@@ -58,7 +58,7 @@ foreach($post_categories as $c){
             </ul>
             <a style="      text-align: center;  margin: .2em;
       margin-right: 0;
-      width: 80%;" href="<?php echo get_theme_mod( 'homepage_left_button_link' ); ?>" class="duration-300 hover:shadow-xl igl-button igl-red-button md:col-span-2 px-8 rounded-lg shadow-md transition uppercase"><?php echo get_theme_mod( 'homepage_left_button' ); ?></a>
+      width: 80%;" href="<?php echo get_theme_mod( 'nav_button_link' ); ?>" class="duration-300 hover:shadow-xl igl-button igl-red-button md:col-span-2 px-8 rounded-lg shadow-md transition uppercase"><?php echo get_theme_mod( 'nav_button' ); ?></a>
           </div>
         </nav>
         
