@@ -6,7 +6,7 @@ Theme URI:
 Description:    IGL 2020.
 Author:         Bryan Bassett
 Author URI:     
-Version:        BJB93284
+Version:        BJB62752
 
 */
 
@@ -22332,10 +22332,6 @@ article h4::before {
 
 .camp-left .igl-button{
   margin-top:1em;
-}
-
-section.campaignhero {
-  min-height:85vh;
 }
 
 .camp-left{
