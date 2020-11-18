@@ -441,7 +441,10 @@ function latest_sticky($type) {
 				'transport'  => 'refresh', //What triggers a refresh of the setting? 'refresh' or 'postMessage' (instant)?
 				) 
 				);      
-
+				$wp_customize->add_section( 'nav_menus_custom', array(
+					'title' => __( 'IGL Menu', 'nssra' ),
+					'panel' => 'nav_menus'
+				) );
 				//3. Finally, we define the control itself (which links a setting to a section and renders the HTML controls)...
 				$wp_customize->add_control(  //Instantiate the color control class
 
@@ -450,7 +453,7 @@ function latest_sticky($type) {
 				'label'      => __( 'Nav Button Text', 'igl' ), //Admin-visible name of the control
 				'settings'   => 'nav_button', //Which setting to load and manipulate (serialized is okay)
 				'priority'   => 10, //Determines the order this control appears in for the specified section
-				'section'    => 'nav_menus', //ID of the section this control should render in (can be one of yours, or a WordPress default section)
+				'section'    => 'nav_menus_custom', //ID of the section this control should render in (can be one of yours, or a WordPress default section)
 				) 
 				);
 
@@ -473,7 +476,7 @@ function latest_sticky($type) {
 				'label'      => __( 'Nav Button Link', 'igl' ), //Admin-visible name of the control
 				'settings'   => 'nav_button_link', //Which setting to load and manipulate (serialized is okay)
 				'priority'   => 10, //Determines the order this control appears in for the specified section
-				'section'    => 'nav_menus', //ID of the section this control should render in (can be one of yours, or a WordPress default section)
+				'section'    => 'nav_menus_custom', //ID of the section this control should render in (can be one of yours, or a WordPress default section)
 				) 
 				);
 
