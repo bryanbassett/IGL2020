@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ){
 
       <div class="w-full sm:w-1/3 px-4 footer-signup">
         <div class="container mx-auto  flex flex-wrap flex-col">
-			<div class="flex  flex-wrap">
+			<div class="">
 				<p class="text-white  text-2xl font-primary font-bold text-md  mb-2">RECEIVE FIELD & PRAYER UPDATES </p>
         <?php echo do_shortcode('[gravityform id="2" title="false" description="false" ajax="true" tabindex="49"]'); ?>
         
