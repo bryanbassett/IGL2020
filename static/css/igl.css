@@ -3,7 +3,13 @@
 *{
     transition: all .3s ease-in-out !important;
 }
+a{
+   color:var(--secondary);
 
+}
+a:hover{
+    text-decoration:underline;
+}
   .igl-divider-1::after {content: "";height: 5px;width: 100%;
     background-color:var(--accent);display: block;}
 

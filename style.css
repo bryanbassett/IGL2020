@@ -6,7 +6,7 @@ Theme URI:
 Description:    IGL 2020.
 Author:         Bryan Bassett
 Author URI:     
-Version:        BJB62752
+Version:        BJB41521
 
 */
 
@@ -21799,6 +21799,14 @@ video {
 
 *{
   transition: all .3s ease-in-out !important;
+}
+
+a{
+  color:var(--secondary);
+}
+
+a:hover{
+  text-decoration:underline;
 }
 
 .igl-divider-1::after {
