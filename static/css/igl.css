@@ -3,7 +3,7 @@
 *{
     transition: all .3s ease-in-out !important;
 }
-article a{
+article a:not(.igl-button){
    color:var(--secondary);
 
 }
