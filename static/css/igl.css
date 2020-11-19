@@ -10,6 +10,13 @@ article a:not(.igl-button){
 article a:not(.igl-button):hover{
     text-decoration:underline;
 }
+article p.igl-button a {
+    color: unset;
+}
+article p.igl-button a:hover {
+    color: unset;
+    text-decoration:unset;
+}
   .igl-divider-1::after {content: "";height: 5px;width: 100%;
     background-color:var(--accent);display: block;}
 
