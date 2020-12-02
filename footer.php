@@ -30,8 +30,16 @@ if ( ! defined( 'ABSPATH' ) ){
           
           <span class="inline-flex justify-left font-primary text-3xl w-full igl-text-accent">CONNECT WITH IGL</span>
 
-      <span class="inline-flex justify-left font-primary text-1xl w-full mt-2">BY MAIL AT:</span>
-      <span class="inline-flex justify-left font-primary text-1xl w-full">PO BOX 356, HUDSON, OH 44236</span>
+      
+        <span class="inline-flex justify-left font-primary text-1xl w-full">
+           <i class="flaticon-mail mr-2"></i>PO BOX 356, HUDSON, OH 44236
+        </span>
+        <span class="inline-flex justify-left font-primary text-1xl w-full">
+           <i class="flaticon-arroba mr-2"></i><a class="hover:underline" href="tel:8883524451">888.352.4451</a>
+        </span>
+        <span class="inline-flex justify-left font-primary text-1xl w-full">
+           <i class="flaticon-old-typical-phone mr-2"></i><a class="hover:underline"  href="mailto:info@iglworld.org">info@iglworld.org</a>
+        </span>
         </nav>
       </div>
 
