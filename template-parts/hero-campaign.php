@@ -17,7 +17,7 @@ $camphero = $camphero[0];
     <?php 
     $d = get_posts(array('tag' => $post_slug));
    // $d= get_some_posts('Campaign Hero Blurb',false,0,$post->post_name); 
-    print_r($d);
+    print_r($d[0]);
     ?>
     
 	<?php print($post->post_name); ?>
