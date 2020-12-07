@@ -16,7 +16,7 @@ $camphero = get_some_posts('Campaign Hero Blurb',false,0,$post->post_name);
 <div class="hidden">
 
 <?php 
-var_dump($camphero);
+
 $camphero = $camphero[0];
 ?>
 	<?php print($post->post_name); ?>
