@@ -14,7 +14,9 @@ $camphero = get_some_posts('Campaign Hero Blurb',false,0,$post->post_name);
 $camphero = $camphero[0];
 ?>
 <div class="hidden">
-	<?php print_r($camphero); ?>
+    <?php print_r($camphero);
+    $camphero = get_some_posts('Campaign Hero Blurb',false,0,$post->post_name); ?>
+    
 	<?php print($post->post_name); ?>
 </div>
 <section class="flex flex-col flex-wrap inline-block m-auto ml-auto mr-auto p-0 bg-cover bg-center  w-full h-full text-center relative campaignhero" style="background-image:url('<?php echo get_the_post_thumbnail_url( ); ?>')">
