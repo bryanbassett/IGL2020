@@ -18,28 +18,9 @@ $camphero = $camphero[0];
   'tag' => $post->post_name, 
   'posts_per_page' => 1); ?>
 
-  <?php $posts = new WP_Query( $args ); ?>
-  <?php if ($recent_posts->have_posts()) : 
-        while ($recent_posts->have_posts()) : $recent_posts->the_post();
-   ?>
-
-
-    <li><?php the_title(); ?></li>
-
-  <?php endwhile; 
-
-     else :
-     echo "Nothing";
-      endif;
-      wp_reset_postdata();
+  <?php $posts = new WP_Query( $args ); 
   ?>
-    <?php 
-
-    
-    $d = get_posts(array('tag' => $post_slug));
-   // $d= get_some_posts('Campaign Hero Blurb',false,0,$post->post_name); 
-    print_r($d[0]);
-    ?>
+f
     
 	<?php print($post->post_name); ?>
 </div>
