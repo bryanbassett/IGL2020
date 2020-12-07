@@ -18,7 +18,7 @@ $camphero = $camphero[0];
   'tag' => $post->post_name, 
   'posts_per_page' => 1); ?>
 
-  <?php $posts = new WP_Query( $args ); 
+  <?php $posts = new WP_Query( $args ); var_dump($posts);
   ?>
 f
     
