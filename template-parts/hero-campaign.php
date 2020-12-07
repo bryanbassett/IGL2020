@@ -14,8 +14,10 @@ $camphero = get_some_posts('Campaign Hero Blurb',false,0,$post->post_name);
 $camphero = $camphero[0];
 ?>
 <div class="hidden">
-    <?php print_r($camphero);
-    $camphero = get_some_posts('Campaign Hero Blurb',false,0,$post->post_name); ?>
+    <?php 
+    $d= get_some_posts('Campaign Hero Blurb',false,0,$post->post_name); 
+    print_r($d);
+    ?>
     
 	<?php print($post->post_name); ?>
 </div>
